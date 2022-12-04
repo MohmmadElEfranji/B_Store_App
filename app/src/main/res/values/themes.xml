@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.B_Store_App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/han_blue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/han_blue</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/han_blue</item>
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/bg_inputfield_lightmode</item>
+    </style>
+
+
+    <!--Chip Theme-->
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Body2</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipStrokeWidth">0.5dp</item>
+        <item name="chipStrokeColor">@color/chip_stroke_color</item>
+        <item name="chipCornerRadius">13dp</item>
+    </style>
+
+    <style name="TextAppearance.App.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <!--        <item name="android:textStyle">bold</item>-->
+        <item name="fontFamily">@font/roboto_regular</item>
+
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+    <!--RatingBar-->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#D3D3D3</item>
+        <item name="colorControlActivated">#FFB300</item>
+    </style>
+
+
+</resources>
